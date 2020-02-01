@@ -1,43 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../staticWebsite/styles2.css">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Overpass:800&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="../staticWebsite/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class = wrapper>
+
+<body class=wrapper>
+    <video loop="" muted="" autoplay=""
+        poster="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/mobile.jpg"
+        class="fullscreen-bg__video">
+        <source src="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.webm"
+            type="video/webm">
+        <source src="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.mp4"
+            type="video/mp4">
+        <source src="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.ogv"
+            type="video/ogg">
+    </video>
     <div class="bar">
         <div id="divLeft">
-        <!-- Cells for the left side of the nav Bar (.divRight) -->
+            <!-- Cells for the left side of the nav Bar (.divRight) -->
             <div id="logoCell">
                 <a href="http://elevenfifty.org">
                     <img id='logoImg' src="../staticWebsite/assets/eleven-fifty-logo-shield.png" alt="">
                 </a>
             </div>
             <div id="titleCell">
-                    <a href="http://elevenfifty.org">Eleven Fifty Academy</a>
+                <a href="http://elevenfifty.org">Eleven Fifty Academy</a>
             </div>
         </div>
         <div id="divRight">
-        <!-- Cells for the right side of the nav Bar (.divRight) -->
-            <div class="navMenuCell">
-                COURSES
+            <!-- Cells for the right side of the nav Bar (.divRight) -->
+            <div class="dropdown">
+                <button class="dropbtn">COURSES</button>
+                <div class="dropdown-content">
+                    <a href="#">FREE INTRO TO CODING
+                        <p>A Beginner course to discover if coding is right for you</p>
+                    </a>
+                    <a href="#">FREE INTRO TO CYBERSECURITY
+                        <p>A Beginner course to discover if cybersecurity is right for you</p>
+                    </a>
+                    <a href="#">FULL-TIME IMMERSIVE
+                        <p>12-Week coding bootcamps</p>
+
+                    </a>
+                    <a href="#">-Web Development</a>
+                    <a href="#">-Software Development</a>
+                    <a href="#">-Cybersecurity</a>
+                    <a href="#">PART-TIME IMMERSIVE
+                        <p>24-Week coding bootcamps - (nights & weekends)</p>
+
+                    </a>
+                    <a href="#">-Web Development</a>
+                    <a href="#">-Software Development</a>
+                    <a href="#">-Cybersecurity</a>
+                    <a href="#">CALENDAR</a>
+                    <a id='red' href="#">
+                        <div>
+                            <i class="fas fa-question-circle fa-2x"></i>
+                        </div>
+                        <div>WHICH COURSE IS RIGHT FOR ME?
+                            <p>Take our short quiz</p>
+                        </div>
+                    </a>
+                                               
+                </div>
             </div>
-            <div class="navMenuCell">
-                ADMISSIONS
+            <div class="dropdown">
+                <button class="dropbtn">ADMISSIONS</button>
+                <div class="dropdown-content">
+                    <a href="#">Tuition</a>
+                    <a href="#">Financial Aid</a>
+                    <a href="#">Culture</a>
+                    <a href="#">Talk to an Advisor</a>
+                    <a id='red' href="#">Apply Now</a>
+                </div>
             </div>
-            <div class="navMenuCell">
-                VETERANS
+            <div class="dropdown">
+                <button class="dropbtn">VETERANS</button>
+                <div class="dropdown-content">
+                    <a href="#">GI Bill Benefits</a>
+                    <a href="#">Get Started</a>
+                </div>
             </div>
-            <div class="navMenuCell">
-                ABOUT US
+            <div class="dropdown">
+                <button class="dropbtn">ABOUT</button>
+                <div class="dropdown-content">
+                    <a href="#">History & Impact</a>
+                    <a href="#">Leadership</a>
+                    <a href="#">Alumni</a>
+                    <a href="#">Blog</a>
+                    <a href="#">In The News</a>
+                </div>
             </div>
-            <div class="navMenuCell">
-                PARTNERS
+            <div class="dropdown">
+                <button class="dropbtn">PARTNERS</button>
+                <div class="dropdown-content">
+                    <a href="#">Company & Community</a>
+                    <a href="#">Work With Us</a>
+                    <a href="#">Hire Our Grads</a>
+                </div>
             </div>
             <div class="maglass">
                 <a href="http://google.com"><img src="../staticWebsite/assets/maglass.png" alt=""></a>
@@ -45,9 +113,102 @@
             <div class="callToAction">
                 GET STARTED
             </div>
+    </div>
+    </div>
+
+    <div class="mainBody">
+        <div id="heroLinks">
+            <div id="heroTitle">
+                RECODE YOUR FUTURE
+            </div>
+            <div id="heroLink">
+                <a href="#contentBlock1-title">FIND YOUR COURSE ></a>
+                
+            </div>
+            
+        </div>
+        <div id='chevron'>
+            <a id='chevron-link' href="#contentBlock1-title">
+                <i class="fas fa-chevron-circle-down fa-4x"></i>
+            </a>
+        </div>
+        <div id='yellowArrow'>
+            <a id='arrow-link' href="#contentBlock1-title">
+                <i class="fa fa-arrow-down" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div id='chatBox'>
+            <a id='chat-link' href="#contentBlock1-title">
+                <div><p>HAVE A QUESTION?</p></div>
+                <div><i class="fa fa-envelope" aria-hidden="true"></i></div> 
+                
+                
+            </a>
         </div>
     </div>
-    <div class="mainBody">
-        
+
+    <div class="contentBlock1">
+
+        <div id="contentBlock1-title">
+            <p><strong>COURSE INFORMATION</strong></p>
+        </div>
+        <div id="contentBlock1-cards">
+            <div class="contentBlock1-card">
+                <h2>Free Intro<br>Classes</h2>
+                <p>
+                    Want to learn if you'd enjoy a career
+                    in coding or cybersecurity? Sign up to
+                    attend one of our FREE intro courses to
+                    find out!
+                </p>
+                <div class="contentBlock1-card-button">SIGN UP NOW &#8250</div>
+            </div>
+            <div class="contentBlock1-card">
+                <h2>Full-Time 12/14-<br>Week Courses</h2>
+                <p>
+                    Learn today’s most relevant software
+                    development or cybersecurity skills to
+                    kick off a new career in the tech industry.
+                </p>
+
+                <div class="contentBlock1-card-button">FULL-TIME COURSES &#8250</div>
+            </div>
+            <div class="contentBlock1-card">
+                <h2>Part-Time 24-<br>Week Courses</h2>
+                <p>
+                    Our part-time coding bootcamps allow students
+                    the flexibility to work while attending class
+                    virtually and on-site. Make money and change
+                    careers at the same time.
+                </p>
+                <div class="contentBlock1-card-button">PART TIME COURSES &#8250</div>
+
+            </div>
+        </div>
     </div>
+    <div class="footer">
+        <div class="footer-grid-container">
+            <div class="footer-grid-div1">
+                <img id='footer-img' src=".//assets/1150LogoLg.png" alt="">
+            </div>
+            <div class="footer-grid-div2">
+                <p>
+                    The tech world is rapidly evolving.
+                    Our curriculum keeps pace.
+                </p>
+            </div>
+            <div class="footer-grid-div3">
+                <p>
+                    Eleven Fifty Academy is a 501(c)(3)
+                    nonprofit code academy and was the first
+                    coding bootcamp in Indiana. We believe
+                    in impacting the lives of students by
+                    providing relevant coding skills for the
+                    most in-demand jobs in today’s tech ecosystem.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
