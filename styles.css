@@ -6,12 +6,9 @@
 *:link {
     color: #f8f8f8;
     text-decoration: none;}
-
-
 *:visited{
     color: #f8f8f8;
     text-decoration: none;}
-
 /* Main container for all content. */
     .wrapper {
     background-color: #f8f8f8;
@@ -284,40 +281,33 @@ justify-content: flex-start;}
 /* Yellow Arrow Attributes. */
         #yellowArrow a {z-index: 4;}
         #yellowArrow i {color: #6b6b6b; font-size: x-large; }
-
-#chatBox{
-    position: fixed;
-    bottom: 15px;
-    right: 25px;
-    background-color: #e33e42;
-    text-shadow: 0px 0px 15px rgba(46, 46, 46,.6);
-    -webkit-text-shadow: 0px 0px 15px rgba(46, 46, 46,.6);
-    height: 45px;
-    width: 270px;
-    border-radius: 23px;
-    font-family: 'Overpass', sans-serif;
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#chatBox p {
-    display: flex;
-    padding-top: 3px;
-}
-
-#chatBox i{
-    display: flex;
-    margin-left: 10px;
-    font-size: larger;
-}
-
-#chat-link{
-    display: flex;
-    align-items:center;
-    justify-content: center;
-}
+/* Chatbox Prompt Bottom Right */
+        #chatBox{
+            position: fixed;
+            bottom: 15px;
+            right: 25px;
+            background-color: #e33e42;
+            text-shadow: 0px 0px 15px rgba(46, 46, 46,.6);
+            -webkit-text-shadow: 0px 0px 15px rgba(46, 46, 46,.6);
+            height: 45px;
+            width: 270px;
+            border-radius: 23px;
+            font-family: 'Overpass', sans-serif;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            justify-content: center;}
+        #chatBox p {
+            display: flex;
+            padding-top: 3px;}
+        #chatBox i{
+            display: flex;
+            margin-left: 10px;
+            font-size: larger;}
+        #chat-link{
+            display: flex;
+            align-items:center;
+            justify-content: center;}
 
 
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
@@ -383,7 +373,7 @@ justify-content: flex-start;}
                 width: 100%;
                 background-color: #e33e42;
                 font-size: 24px;
-                font-weight: 300;
+                font-weight: 100;
                 font-style: normal;
                 line-height: 30px;
                 color: #efefef;
